@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../images/ca3.jpg") no-repeat;
+
+}
+
+.container {
+
+    width: 400px;
+    max-width: 1200px;
+    margin: 0 400px;
+
+
+    border-radius: 10px;
+    background-color: grey;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.out {
+    width: 400px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: aquamarine;
+}
+
+.row {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    flex-flow: row wrap;
+}
+
+.row button {
+    color: black;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+button:hover {
+    background-color: rgb(179, 164, 164)
+}
+
+.d {
+    font-size: 25px;
+}
+
+.co {
+    background-color: white;
+}
+
+.si {
+    background-color: yellow;
+}
+
+.head {
+    background-color: black;
+    width: 400px;
+    padding: 10px;
+    color: deeppink;
+    margin: 60px 400px;
+    font-size: 40px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
